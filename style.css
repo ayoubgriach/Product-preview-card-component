@@ -1,0 +1,146 @@
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  height: 100vh;
+  /* width: 100vw; */
+
+  /*  */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 0;
+  grid-template-rows: 1;
+  gap: 24px;
+}
+
+/* .flex {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+} */
+
+.mar-top {
+  margin-top: 16px;
+}
+
+/*  */
+
+.parfum-box {
+  width: 600px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sub-heading {
+  font-family: "Montserrat";
+  font-size: 8px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 28px;
+  color: hsl(228, 12%, 48%);
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: hsl(212, 21%, 14%);
+}
+
+p {
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  height: fit-content;
+  width: 250px;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.new-price {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(158, 36%, 37%);
+}
+
+.old-price {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+
+.btn {
+  /* display: inline-flex; */
+  border: none;
+  width: 100%;
+  height: 50px;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: all 500ms;
+}
+
+.btn:hover {
+  background-color: hsl(157, 37%, 22%);
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.btn-text {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* attribution */
+.attribution {
+  font-family: "Montserrat";
+  margin-top: 28px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: hsl(212, 21%, 14%);
+}
+.attribution a {
+  color: hsl(158, 36%, 37%);
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+
